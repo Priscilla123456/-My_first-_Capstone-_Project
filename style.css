@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(216, 28%, 13%);
+  color: white;
+  font-family: sans-serif;
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+.main-container {
+  width: 1080px;
+  margin: auto;
+  margin-top: 90px;
+  position: relative;
+}
+
+.home-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  list-style: none;
+}
+
+.nav-ul a {
+  margin: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #337e79;
+}
+
+a:active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 190px;
+}
+
+.main-header img {
+  margin-bottom: 30px;
+}
+
+.main-header h1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.main-header p {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #337e79;
+  color: white;
+  padding: 13px 65px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #65e2d9;
+}
+
+/* .all-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all-container img {
+  margin-bottom: 30px;
+}
+
+.all-container h3 {
+  margin-bottom: 10px;
+}
+
+.all-container p {
+  margin-bottom: 70px;
+}
+
+.access-file {
+  text-align: center;
+}
+
+.security {
+  text-align: center;
+}
+
+.collab {
+  text-align: center;
+}
+
+.store {
+  text-align: center;
+} */
+
+.access-security {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.access-security img {
+  margin-bottom: 30px;
+}
+
+.access-security h3 {
+  margin-bottom: 10px;
+}
+
+.collab-store {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.collab-store img {
+  margin-bottom: 30px;
+}
+
+.collab-store h3 {
+  margin-bottom: 10px;
+}
+
+.stay-productive {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 170px;
+}
+
+.pro-text h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.pro-text p {
+  margin-bottom: 20px;
+}
+
+.pro-text a:link {
+  text-decoration: underline;
+}
+
+.anchor {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.quote {
+  position: absolute;
+  top: -30px;
+  left: -11px;
+  z-index: -1;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 270px;
+}
+
+.patel {
+  background-color: #202a3c;
+  padding: 28px;
+  border-radius: 5px;
+}
+.patel-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.patel-img img {
+  border-radius: 50px;
+}
+
+.patel-title {
+  font-size: 12px;
+}
+
+.semi-footer {
+  text-align: center;
+  background-color: #202a3c;
+  width: 700px;
+  height: 200px;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 120px;
+  position: absolute;
+  bottom: -505px;
+  left: 15%;
+}
+
+.semi-footer h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.semi-footer p {
+  margin-bottom: 20px;
+  font-size: normal;
+}
+
+.input {
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 350px;
+  padding: 13px 0;
+  padding-left: 15px;
+  margin-right: 15px;
+}
+
+.semifooter-btn {
+  background-color: #65e2d9;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.semifooter-btn:hover {
+  background-color: #304746;
+}
+
+.footer {
+  background-color: #0b1523;
+}
+
+.footer-logo {
+  margin-left: 70px;
+  margin-bottom: 50px;
+  padding-top: 180px;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-body li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.location-footer {
+  display: flex;
+  gap: 15px;
+}
+
+.phone-mail {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-mail img {
+  margin-right: 15px;
+}
